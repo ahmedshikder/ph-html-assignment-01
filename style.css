@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Arimo", sans-serif;
+}
+.nev-display{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0px;
+    align-items: center;
+
+}
+.nev-display a{
+    text-decoration: none;
+    color: #575757;
+}
+.nav-links{
+    display: flex;
+    gap: 20px;
+}
+.common-button{
+    background-color: #1D4ED8;
+    color: white;
+    padding: 7px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+.container{
+    max-width: 1320px;
+    margin: auto;
+}

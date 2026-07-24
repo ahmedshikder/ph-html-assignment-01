@@ -3,12 +3,26 @@
     margin: 0;
     font-family: "Arimo", sans-serif;
 }
+.container{
+    max-width: 1320px;
+    margin: auto;
+}
+.common-button{
+    background-color: #1D4ED8;
+    color: white;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    font-size: 16px;
+}
+/* nav */
 .nev-display{
     display: flex;
     justify-content: space-between;
     padding: 15px 0px;
     align-items: center;
-
 }
 .nev-display a{
     text-decoration: none;
@@ -18,15 +32,65 @@
     display: flex;
     gap: 20px;
 }
-.common-button{
-    background-color: #1D4ED8;
+/* poster */
+.poster{
+    background-image: url(./assets/banner.jpg);
     color: white;
-    padding: 7px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-    border: none;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 120px 0px;
 }
-.container{
-    max-width: 1320px;
-    margin: auto;
+.poster-content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 880px;
+    text-align: center;
+    font-size: 22px;
+}
+.poster h1{
+    font-size: 80px;
+}
+.poster button{
+    margin-top: 375px;
+    padding: 20px 50px;
+    font-size: 24px;
+}
+/* Meet the Speakers */
+.speakers-parent h1{
+    font-size: 56px;
+    margin-top: 80px;
+    margin-bottom: 56px;
+    text-align: center;
+}
+.speakers-card{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    padding: 5px 5px;
+}
+.cards{
+    border: 1px solid #e5e7e8;
+    border-radius: 12px;
+    overflow: hidden;
+}
+.card-content{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px 20px;
+}
+.card-f-p{
+    font-size: 12px;
+    font-weight: bold;
+    color: #2563eb;
+}
+.card-s-p{
+    font-size: 14px;
+    color: #575757;
 }

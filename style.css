@@ -32,6 +32,7 @@
     display: flex;
     gap: 20px;
 }
+
 /* poster */
 .poster{
     background-image: url(./assets/banner.jpg);
@@ -61,6 +62,7 @@
     padding: 20px 50px;
     font-size: 24px;
 }
+
 /* Meet the Speakers */
 .speakers-parent h1{
     font-size: 56px;
@@ -94,3 +96,99 @@
     font-size: 14px;
     color: #575757;
 }
+/* Secure Your Spot */
+.price-parent{
+    margin-top: 150px;
+    text-align: center;
+    margin-bottom: 200px;
+}
+.price-head{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 40px;
+}
+.price-head h1{
+    font-size: 48px;
+}
+.price-head p{
+    font-size: 16px;
+    color: #575757;
+}
+.price-cards{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.price-cards ul{
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    color: #333;
+    gap: 15px;
+    padding-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.price-cards li::marker{
+    color: #60a5fa;
+}
+.price-card{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 1px solid #e5e7e8;
+    border-radius: 12px;
+    padding: 30px 40px;
+    text-align: left;
+    background-color: #f8f9fb;
+}
+.price-content{
+    margin-bottom: 20px;
+}
+.price-content h1{
+    font-size: 44px;
+}
+.price-content p{
+    font-size: 13px;
+    color: #888;
+}
+.price-content p:first-of-type{
+    font-weight: bold;
+}
+.price-card button{
+    color: #2365eb;
+    border: 1px solid #2563eb;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 8px;
+    width: 300px;  
+    padding: 12px;
+}
+.pro-card{
+    background-color: #0d1b2a;
+    color: white;
+}
+.pro-card p:first-of-type{
+    color: #93c5fd;
+}
+.pro-card li{
+    color: #ffff;
+}
+.pro-card button{
+    background-color: #2563eb;
+    font-size: 14px;
+    color: white;
+}
+.price-cards .standard-card{
+    background-color: #ffffff;
+}
+.price-cards .standard-card button{
+    background-color: #ffffff;
+}
+.team-card button{
+    color: #0d1b2a;
+    border: 1px solid #000000;
+}
+
+
